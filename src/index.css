@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+.react-tel-input .form-control{
+  @apply !w-full py-6 !text-base
+}
+
+.otp-container{
+  @apply flex justify-between gap-2
+}
+.otp-container input{
+  @apply !mr-0 flex-1 py-5 outline-none
+}
